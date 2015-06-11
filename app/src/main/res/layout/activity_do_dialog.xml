@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".Dialog_Activity"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <TextView
+        style="@style/AvtivityTitleStyle"
+        android:text="\n \nPop Up Message"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialog_title_id"
+
+        android:hint="Insert the title"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialog_content_id"
+        android:layout_marginTop="10dp"
+        android:hint="Insert the content" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Show dialog"
+            android:id="@+id/show_dialog_id"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <Button
+            android:id="@+id/Btn_Code_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Btn_CodeTitle_text"
+            android:layout_gravity="bottom"/>
+    </LinearLayout>
+
+</RelativeLayout>

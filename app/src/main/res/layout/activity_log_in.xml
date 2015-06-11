@@ -1,0 +1,32 @@
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="hva.pages.LogIn"
+    >
+
+    <TextView
+        style="@style/AvtivityTitleStyle"
+        android:text="\n \nPass Data"
+        />
+
+    <TextView
+        android:id="@+id/SecondActivity_textview_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
+        <Button
+            android:layout_alignParentBottom="true"
+            android:id="@+id/Btn_Code_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Btn_CodeTitle_text"
+            android:layout_gravity="bottom"/>
+
+
+
+</RelativeLayout>

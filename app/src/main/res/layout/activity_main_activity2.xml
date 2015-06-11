@@ -1,0 +1,50 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="hva.pages.MainActivity2Activity"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+
+    <ImageButton
+        android:id="@+id/Android_imagebutton_id"
+        android:scrollbars="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/alogo"
+        android:background="#F2F3F3"
+
+        />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:fillViewport="true">
+        <ListView
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:id="@+id/Tutorials_ListView_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="horizontal"/>
+</ScrollView>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/Lynda_imagebutton_id"
+        android:scrollbars="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lyndalogo"
+        />
+
+</RelativeLayout>
